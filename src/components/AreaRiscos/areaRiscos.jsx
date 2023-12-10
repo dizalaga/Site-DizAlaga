@@ -6,8 +6,7 @@ import { Link } from "react-router-dom";
 import Api from "../api/api";
 import MapaSVG from "../Mapa/MapaSvg";
 
-
-import lixo from "./imagens-area-de-risco/jogarlixocorretamente.jpg";
+import lixo from "./imagens-area-de-risco/jogarlixolugarcorreto.jpg";
 import manuntencao from "./imagens-area-de-risco/manuntecao.jpg";
 import casa from "./imagens-area-de-risco/cena-simples-aldeia-rural/casa.jpg";
 
@@ -37,7 +36,8 @@ function AreaRiscos() {
               de alagamento durante chuvas e acidentes que envolvem água.
               Clicando no mapa, é possível ver mais informações sobre os
               respectivos bairros e suas comunidades.
-            </p><br></br>
+            </p>
+            <br></br>
             <p>
               Os dados abaixo correspondem a pesquisas feitas pela Defesa Civil
               de Pernambuco e são anualmente atualizadas
@@ -83,7 +83,7 @@ function AreaRiscos() {
                 <h4 className="tituloDescarteLixo">
                   Descarte o lixo de forma correta
                 </h4>
-                <p>
+                <p className="textoDescarte">
                   O acúmulo de lixos mau descartados muitas vezes é o
                   responsável por fechar saídas de esgotos e consequentemente
                   gerar concentração de água que acabam ocasionando em
@@ -97,7 +97,7 @@ function AreaRiscos() {
             <div className="imagemTextoContainerManuntencao">
               <div className="textoContainer">
                 <h4 className="tituloManutencao">Manutenção de Propriedades</h4>
-                <p>
+                <p className="textoManutencao">
                   Mantenha os sitemas de drenagem do solo e as canaletas da rua
                   limpas e bem cuidadas, assim a água não se acumulará evitando
                   alagamentos.
@@ -118,7 +118,7 @@ function AreaRiscos() {
                 <h4 className="tituloArvoresVegetacao">
                   Árvores e vegetação protetora
                 </h4>
-                <p>
+                <p className="textoArvores">
                   Tenha árvores e plantas no solo perto de casa para que assim
                   ajudem na absorção da água da chuva.
                 </p>
