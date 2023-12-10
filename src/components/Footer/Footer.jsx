@@ -23,7 +23,7 @@ function Footer() {
           </Link>
 
           <Link
-            to="https://www.linkedin.com/in/diz-alaga-471015298/"
+            to="https://www.linkedin.com/company/dizalaga/?viewAsMember=true"
             className="footer-link"
             id="linkedin"
           >
