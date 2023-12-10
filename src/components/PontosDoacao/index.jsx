@@ -70,7 +70,7 @@ function PontosDoacao() {
             <p className="title-card">Dona Lindu</p>
             <br></br>
             <p className="lugarDonaLindu">Recife-PE</p>
-            <button onClick={donaLindu} class="button">
+            <button onClick={donaLindu} className="button">
               ver no mapa
             </button>
           </div>
@@ -82,7 +82,7 @@ function PontosDoacao() {
           <div className="card-content">
             <p className="title-card">Gris Espaço Solidário</p>
             <p className="lugarGris">Recife-PE</p>
-            <button onClick={gris} class="button">
+            <button onClick={gris} className="button">
               ver no mapa
             </button>
           </div>
@@ -94,7 +94,7 @@ function PontosDoacao() {
           <div className="card-content">
             <p className="title-card">Universidade Federal de Pernambuco</p>
             <p className="lugarUfpe">Recife-PE</p>
-            <button onClick={ufpe} class="button">
+            <button onClick={ufpe} className="button">
               ver no mapa
             </button>
           </div>
@@ -106,7 +106,7 @@ function PontosDoacao() {
           <div className="card-content">
             <p className="title-card">Central Única das Favellas PE</p>
             <p className="lugarCufa">Recife-PE</p>
-            <button onClick={cufa} class="button">
+            <button onClick={cufa} className="button">
               ver no mapa
             </button>
           </div>
@@ -119,7 +119,7 @@ function PontosDoacao() {
             <p className="title-card">Prefeitura do Recife</p>
             <br></br>
             <p className="lugarPrefeitura">Recife-PE</p>
-            <button onClick={prefeitura} class="button">
+            <button onClick={prefeitura} className="button">
               ver no mapa
             </button>
           </div>
@@ -132,7 +132,7 @@ function PontosDoacao() {
             <p className="title-card">OAB de Pernambuco</p>
             <br></br>
             <p className="lugarOab">Recife-PE</p>
-            <button onClick={oab} class="button">
+            <button onClick={oab} className="button">
               ver no mapa
             </button>
           </div>
