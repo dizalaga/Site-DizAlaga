@@ -176,11 +176,7 @@ function Marketplace() {
             </div>
           </div>
         </div>
-        <Link to="/marketplace" className="paginas">
-          <p className="tracinho">{"<"}</p>
-          <p className="um">1 </p>
-          <p className="tracinho">{">"} </p>
-        </Link>
+      
       </div>
       <span className="footer">
         <Footer></Footer>
