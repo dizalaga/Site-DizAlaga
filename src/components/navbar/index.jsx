@@ -51,11 +51,11 @@ function Navbar() {
           Quem somos?
         </Link>
 
-        <div className="Pesquisar">
+{/*         <div className="Pesquisar">
           <button className="tema">
             <img src={tema} width="10px" alt="Tema" className="imagemTema" />
           </button>
-        </div>
+        </div> */}
 
         <div className="user-dropdown">
           <img
