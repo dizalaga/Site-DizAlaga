@@ -1,0 +1,209 @@
+.usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #9FCCB9;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.botaoVoltar {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 6rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border: 0.9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 100rem;
+  height: 40rem;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.profile-left,
+.profile-right {
+  width: 45%;
+}
+
+.imagemUser{
+  background-color: aliceblue;
+  border: 4px solid #1D50A9;
+}
+
+.profile-right{
+  width: 36rem;
+  height: 35rem;
+  background-color: #1D50A9;
+  padding: 0;
+  border-radius: 15px;
+
+}
+
+.profile-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #4285F4;
+  width: 30%;
+  height: 70%;
+  border-radius: 15px;
+}
+
+.profile-left img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.botaoTrocarFoto, .botaoApagarFoto {
+  display: block;
+  margin: 5px auto;
+  border-radius: 20px;
+  width: 9rem;
+  height: 2rem;
+  border: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.botaoTrocarFoto{
+  background-color: #1D50A9;
+  color: white;
+  
+}
+
+.botaoApagarFoto{
+  background-color: #FC3131;
+  color: white;
+  width: 6rem;
+}
+
+.profile-left textarea {
+  width: 70%;
+  height: 100px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.tituloEditarPerfil {
+  text-align: left;
+  color: white;
+  background-color: #4285F4;
+  padding: 5%;
+  border-radius: 15px 15px 0px 0px;
+
+}
+
+.profile-right form .input-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 3rem -2rem 3rem;
+}
+
+.profile-right form .input-group label {
+  width: 100%;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: left;
+  margin-top: 1rem;
+  
+}
+
+.profile-right form .input-group input {
+  width: 100%;
+  height: 2.2rem;
+  margin-right: 2%;
+  border: 2px solid #188a45;
+  border-radius: 5px;
+}
+
+.profile-right form .input-group input:last-child {
+  margin-right: 0;
+}
+
+.profile-right form input,
+.profile-right form button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.profile-right form button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaosConfirmarApagar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+
+.botaosConfirmarApagar .botaoApagarConta{
+  background-color: #D20303;
+}
+
+.caixa-mensagem {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  width: 15rem;
+  border: 1px solid #188a45;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .profile-left,
+  .profile-right {
+    width: 100%;
+  }
+
+  .profile-right form .input-group {
+    flex-direction: column;
+  }
+
+  .profile-right form .input-group input {
+    width: 100%;
+    margin-right: 0;
+  }
+}

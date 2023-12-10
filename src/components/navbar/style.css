@@ -1,0 +1,158 @@
+:root {
+  --cor1: #20accf;
+  --cor2: #35b359;
+}
+
+.tema {
+  border-radius: 20px;
+  margin-right: 1rem;
+  width: 30px;
+  height: 30px;
+  border-color: var(--cor2);
+  cursor: pointer;
+}
+
+.imagemTema {
+  width: 100%;
+}
+
+.user {
+  background-color: var(--cor2);
+  border-radius: 29px;
+  align-items: end;
+  margin-right: 3rem;
+}
+
+.user:hover {
+  background-color: var(--cor1);
+  border-radius: 29px;
+}
+
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 0.8rem;
+text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.user-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 2px;
+  margin-bottom: -11px;
+}
+
+nav {
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  margin-top: 5px;
+  align-items: end;
+  padding: 20px;
+  white-space: nowrap;
+}
+
+nav > a {
+  color: var(--cor1);
+  padding: 5px 20px; /* Adicione margens horizontalmente para espaçamento */
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  font-weight: 700px;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+  display: flex;
+}
+
+nav > a:hover {
+  color: var(--cor2);
+  text-decoration: underline;
+  text-decoration-color: var(--cor2);
+  text-decoration-style: wavy;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end; /* Isso centraliza verticalmente os itens */
+  padding: 0 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 auto;
+  background: #e9fffc;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  .logo {
+    margin: 1px 0;
+  }
+
+  nav > a {
+    margin: 5px 0; 
+    border-bottom: none; 
+  }
+
+  .tema {
+    margin-right: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .user {
+    margin-right: 0; /* Remove a margem direita da imagem do usuário */
+  }
+
+  .user-dropdown {
+    margin-right: 0; /* Remove a margem direita do dropdown do usuário */
+  }
+
+  .dropdown-content {
+    width: 100%; /* Define a largura total do dropdown */
+    text-align: center; /* Centraliza o conteúdo no dropdown */
+  }
+}

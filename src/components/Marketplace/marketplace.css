@@ -1,0 +1,199 @@
+
+.container-marketplace {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #1BC67E;
+
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 15% 5% 15%;
+}
+
+
+.nameTitle{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-product {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  padding: 1rem;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Alterado para coluna para melhor controle do espaçamento vertical */
+  align-items: center;
+  margin: 1%;
+}
+
+.saibaMais {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+
+
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+.contato{
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+
+
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+.imageProduct {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.nameTitleCama{
+  font-size: 15px;
+  margin: 1.7rem 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.nameTitleArmario{
+  font-size: 15px;
+  margin: 1.7rem 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.nameTitlePortoSeguro{
+  font-size: 15px;
+  margin: 1.7rem 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.nameTitleLibertySeguro{
+  font-size: 15px;
+  margin: 1.7rem 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.nameTitleAllianz{
+  font-size: 15px;
+  margin: 1.7rem 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.nameTitleSofa {
+  font-size: 15px;
+  margin: 1.7rem 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.descriptionCama{
+  margin-top: 0.1rem;
+  
+}
+.descriptionArmario{
+  margin-top: 0.1rem;
+
+}
+.descriptionPortoSeguro{
+  margin-top: 0.1rem;
+
+}
+.descriptionLibertySeguro{
+  margin-top: 0.1rem;
+
+}
+.descriptionAllianz{
+margin-top: 0.1rem;
+}
+.descriptionSofa{
+margin-top: 0.1rem;
+}
+
+.description {
+  font-size: 14px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.price {
+  font-size: 14px;
+  margin: 1rem 0;
+  font-weight: bold;
+  color: #002a7d;
+  text-align: center;
+}
+
+.location{
+  text-align: center;
+  font-size: 13px;
+  margin-top: 1rem;
+}
+
+.paginas{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.tracinho{
+  color: #707070;
+}
+
+.um{
+  text-decoration: underline;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  color: #002a7d;
+  
+}
+
+.wordInvisible{
+  color: #fff;
+}
